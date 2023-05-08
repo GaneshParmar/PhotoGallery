@@ -2,6 +2,11 @@
 
 This is a picture gallery application that retrieves pictures from Unsplash.com based on user-defined categories and displays them in a grid layout. It is built using JavaScript, CSS, HTML, and API calls.
 
+## Live Demo
+
+You can access the live demo of the application [here](https://ganeshparmar.github.io/PhotoGallery/).
+
+
 ## Features
 
 - Users can enter a category name to search for relevant pictures.
