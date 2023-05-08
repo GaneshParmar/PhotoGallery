@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Font1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Font2&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Font1', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-family: 'Font2', cursive;
+}
+
+.splash {
+    /* width: 100px; */
+    /* width: 100px; */
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    animation: splash-animation 2s forwards;
+}
+
+.splash h1 {
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+#main-content {
+    display: none;
+}
+
+.main {
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+header {
+    padding: 5px;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+}
+
+.logo {
+    width: fit-content;
+    margin: 0px 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: purple;
+    font-size: 1.4em;
+}
+
+.searchWrap {
+    flex-grow: 1;
+    display: flex;
+    margin: 0px 10px;
+}
+
+/* input search  */
+#search {
+
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    background: none;
+    outline: none;
+    border: none;
+    border-right: 0px;
+    background-color: rgba(128, 0, 128, 0.3);
+    color: white;
+}
+
+/* Search bTN */
+
+#searchBtn {
+    border-radius: 0px 10px 10px 0px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    /* border: 2px solid rgba(0, 0, 0, 0.367); */
+    border-left: 0px;
+    background-color: purple;
+    color: white;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+
+.picture-container {
+    display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.picture-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.picture-container p {
+    margin: 5px 0;
+}
+
+.picture-container a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.picture-container a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 599px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+}
+
+
+@keyframes splash-animation {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
