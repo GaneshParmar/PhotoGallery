@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoGallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="splash" id="splash">
+        <h1 >Welcome To, <span>Photo Gallery</span></h1>
+    </div>
+
+
+    <div class="main" id="main-content">
+        <header>
+            <nav>
+                <div class="logo">
+                    Photo Gallery
+                </div>
+                <div class="searchWrap">
+                    <input type="search" name="search" id="search" placeholder="Search Your Photo"/>
+                    <input type="button" id="searchBtn" value="Search"/>
+                </div>
+            </nav>
+        </header>
+        <br />
+        <span id="userSearchText"><h3></h3></span>
+        <div id="container" class="container">
+            
+            Use above search bar for searching the images !
+            
+        </div>
+
+    </div>
+
+    <!-- For staggered grid i used this library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+
+    <!-- This js is for splash screen  -->
+    <script src="./js/splash.js"></script>
+
+    <!-- Here in this js i call the api to fetch the photos -->
+    <script type="module" src="./js/fetchData.js"></script>
+
+    <!-- Index js -->
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
