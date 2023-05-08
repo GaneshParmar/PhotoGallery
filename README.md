@@ -11,7 +11,7 @@ This is a picture gallery application that retrieves pictures from Unsplash.com 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/picture-gallery.git`
+1. Clone the repository: `git clone https://github.com/GaneshParmar/PhotoGallery.git`
 2. Open the `index.html` file in a web browser.
 
 ## Usage
