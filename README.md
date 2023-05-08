@@ -27,7 +27,7 @@ This application uses the Unsplash API to fetch pictures. To use the API, you ne
 
 1. Go to the [Unsplash Developers](https://unsplash.com/developers) page.
 2. Create a new application and get your access key.
-3. Replace the `accessKey` variable in the JavaScript code (`script.js`) with your own access key.
+3. Replace the `accessKey` variable in the JavaScript code (`fetchData.js`) with your own access key.
 
 ## Technologies Used
 
